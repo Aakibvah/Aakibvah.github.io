@@ -4,19 +4,16 @@
 }
 @media only screen and (max-width: 420px) {
     .hero_title {
+      margin-top: 5rem;
       font-size: 3rem;
-      margin-top: 10rem;
     }
-  }
-
-@media only screen and (max-width:420px){
     .bgimage{
-    height:55vh;
-    background: url('images/portfolioImage1.jpg');
-    background-size:cover;
-    position:relative;
-    }
-}
+        height:55vh;
+        background: url('images/portfolioImage1.jpg');
+        background-size:cover;
+        position:relative;
+        }
+  }
 /* hero background image */
 @media only screen and (min-width: 421px){
     .bgimage {
@@ -25,14 +22,12 @@
         background-size:cover;
         position:relative;
     }
+
+    .hero_title {
+        font-size: 4.5rem;
+    }
 }
 
-/* text css above hero image*/
-@media only screen and (min-width: 421px){
-.hero_title {
-    font-size: 4.5rem;
-}
-}
 .hero_desc {
     font-size: 2rem;
 }
@@ -74,8 +69,12 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+.fa-facebook:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: rgb(7, 213, 245);
+    background-color: white;
+}
+.fa-instagram:hover{
+    color:#fa5d3a
 }
 .fab {
     color: #000000;
@@ -84,3 +83,15 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.card{
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card:hover{
+    transform: scale(1.06);
+}
+span{
+    font-weight: 500;
+}
